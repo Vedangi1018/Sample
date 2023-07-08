@@ -1,0 +1,11 @@
+Assign 05
+
+Freestyle proj
+
+java application:
+Github===Add java code
+Jenkins===Configuration(Giturl==main==poll-scm==Execute window batch command===[javac Hello.java Java Hello])
+
+
+Python aoolication:
+pytho file.py
