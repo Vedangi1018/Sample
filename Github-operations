@@ -1,0 +1,28 @@
+git clone url
+git config --global user.email mailid
+git config --global user.name vedangi
+cd my_repo1
+Branches:
+git branch
+git branch feature
+git checkout feature
+git branch
+git checkout -b feature2
+git branch
+Push:
+git add .
+git commit -m "file added"
+git push -u origin main/feature/feature2
+Pull:
+git pull
+Merge:
+git checkout feature
+git merge feature2
+git log --oneline
+Rebase:
+git rebase main/feature/feature2
+git log --oneline
+Deleting branch:
+remotely:git push --delete origin feature/feature2
+locally:git branch -d feature
+
