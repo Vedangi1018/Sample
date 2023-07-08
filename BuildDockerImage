@@ -1,0 +1,26 @@
+###Build docker image and push it to docker hub.create and run a new container from an image
+
+###required: dockerhub, docker desktop
+
+hello-docker-java-->
+java file
+
+class file
+
+Dockerfile:
+# base image
+FROM openjdk:17
+COPY . /src/java
+WORKDIR /src/java
+RUN ["javac","HelloW.java"]
+ENTRYPOINT ["java", "HelloW"]
+
+cmd: 
+c:\49\hello-docker-java>
+docker build -t h-d-j .
+docker images
+docker tag h-d-j
+docker login
+docker push vedangi1018/h-d-j
+docker pull
+docker images
