@@ -1,0 +1,17 @@
+# create jenkins pipeline to build and push docker image.
+dockerfile, jenkinsfile and application
+
+Assign 10
+
+Required:
+
+github===3files===java docker jenkins
+jenkins===proj as pipeline===dd credentials from dockerhub
+dockerhub===take token(security)===push
+docker===images===Pull
+
+cmd:
+
+docker images
+docker pull vedangi1018/ise
+docker run vedangi1018/ise:2
