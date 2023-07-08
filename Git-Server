@@ -1,0 +1,8 @@
+Create new folder as git-server on any drive
+open cmd from git-server--> type[ git init repo --bare ]
+right click git-server folder and go to properties-sharing-share-everyone-read-write
+create 2 more folder
+test===open cmd from test type[ git clone "url of git-server till repo folder"] and add commit push files inside repo
+test2==open cmd from test type[ git clone "url of git-server till repo folder"] and add commit push files inside repo
+
+type git pull on test cmd
