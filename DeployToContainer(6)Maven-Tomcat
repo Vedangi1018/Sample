@@ -1,0 +1,16 @@
+#create web application and commit to github use maven tomcat jenkins
+Deploy to container
+
+Assign 06
+Freestyle
+deploy to container
+### master ###
+
+Github===empty repository===no files===only readme file
+Eclipse===team==share-proj==commit==push head======use github token as password
+jenkins==configuration(giturl==master==poll-scm==BuildStep(InvokeTopLevelMaven==maven_Home==clean install)==
+PostBuildAction  [(Deploywar/ear(**/*.war,SamplePract)) container(Tomcat9.x(deployer/***,local:8081))]   )
+tomcat===
+
+Global tool configuration:
+JDK instalation===git installation===maven installation
