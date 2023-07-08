@@ -1,0 +1,27 @@
+## create jenkins pipeline to execute java application
+
+Ass08
+
+Proj as pipeline
+
+required:
+github===Add java file===Add jenkins File
+jenkins===configuration(giturl==poll-scm==main)=====build
+
+jenkinsfile:
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                bat 'javac Hello.java'
+                bat 'java -version'
+            }
+        }
+        stage('Run') {
+            steps {
+                bat 'java Hello'
+            }
+        }
+    }
+}
